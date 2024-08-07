@@ -4,15 +4,23 @@
 by Aron K. Beke
 King Abdullah University of Science and Technology
 
-This repository contains code to support the manuscript "Tipping the chemical separation iceberg: hybrid modeling for nanofiltration in energy-conscious manufacturing".
-(DOI:XX/XYZ)
+This repository contains code to support the manuscript "Tipping the chemical separation iceberg: hybrid modeling for nanofiltration in energy-conscious manufacturing" (DOI:XX/XYZ). Nanofiltration, extraction, and evaporation models are included for process simulation and techno-economic analysis.
 
 Two functionalities are included, both run from command line:
-1. Running industrial_example_reproduction.py will perform calculations and display results related to two industrial example separation steps included in the manuscript.
-2. Running main.py allows the user to perform simple techno-economic analysis supporting technology selection between nanofiltration, evaporation, and extraction.
+1. Running recreate_results.py will perform calculations and display results related to two industrial example separation steps (Apixaban and Metoprolol) included in the manuscript.
+2. Running run_analysis.py allows the user to perform a simple techno-economic analysis of a separation scenario for technology selection between nanofiltration, evaporation, and extraction.
 
-# main.py
-Running main.py will prompt the user for the name or path of a .txt file containing all necessary separation parameters. The input.txt file is provided as template.
+# Installation
+Performing analysis using this package requires the installation of conda and dependencies.
+1. Install conda from https://conda.io/projects/conda/en/latest/user-guide/install/index.html.
+2. Download and save this package.
+3. Navigate to the repository. Create an environment and install necessary dependencies easily from the environment.yml file, using the following terminal command: `conda env create -f environment.yml`. The environment will be named `meprom-tea-env`.
+4. Alternatively, create a new enviroment and install the necessary dependencies (numpy, pandas, scipy, and rdkit) manually: `conda create -n meprom-tea-env numpy pandas scipy rdkit`.
+5. Activate the environment with `conda activate meprom-tea-env`.
+6. Run analysis using `python run_analysis.py` or `python recreate_results.py`.
+
+# run_analysis.py
+Running run_analysis.py will prompt the user for the name or path of a .txt file containing all necessary separation parameters. The input.txt file is provided as template.
 After performing the necessary calculations, the code will output the following:
 
 1. Best technology: energetically most favorable technology or combination of technologies

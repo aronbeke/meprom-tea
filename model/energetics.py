@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import math
-from scipy.integrate import odeint
 from scipy.optimize import fsolve
 import rdkit.Chem
 import rdkit.Chem.Crippen

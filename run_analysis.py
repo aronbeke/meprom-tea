@@ -1,4 +1,3 @@
-import sys
 import pandas as pd
 import warnings
 import model.auxiliary as auxiliary
