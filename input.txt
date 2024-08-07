@@ -1,0 +1,23 @@
+separation_type=solute_concentration
+solvent=methanol
+solute1_smiles=C(CBr)Br
+solute2_smiles=CC1=CN=C(C=C1)C2=NC=C(C=C2)C
+solute1_feed_concentration=1.0
+solute2_feed_concentration=1.0
+solute1_target_concentration=10.0
+solute_target_concentration_ratio=10.0
+solute1_rejection=0.95
+solute2_rejection=0.4
+solute1_solubility=1000
+solute2_solubility=1000
+solute1_density=1300
+solute2_density=1300
+solute1_log_partition_water=2.0
+solute2_log_partition_water=3.0
+solute1_log_partition_heptane=1.5
+solute2_log_partition_heptane=2.5
+external_heat_integration=0.5
+permeance=3.6
+membrane_cost=500
+membrane_lifetime=1.0
+country=United States of America
