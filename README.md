@@ -1,7 +1,7 @@
 # Membrane Process Modeling - Techno-Economic Analysis
 (meprom-tea)
 
-This repository contains code to support the manuscript "Tipping the chemical separation iceberg: hybrid modeling for nanofiltration in energy-conscious manufacturing" (DOI:XX/XYZ). Nanofiltration, extraction, and evaporation models are included for process simulation and techno-economic analysis.
+This repository contains code to support the manuscript "A hybrid modelling approach to compare chemical separation technologies in terms of energy consumption and carbon dioxide emissions" (DOI:10.1038/s41560-024-01668-7). Nanofiltration, extraction, and evaporation models are included for process simulation and techno-economic analysis.
 
 Two functionalities are included, both run from command line:
 1. Running recreate_results.py will perform calculations and display results related to two industrial example separation steps (Apixaban and Metoprolol) included in the manuscript.
